@@ -1,0 +1,74 @@
+.app__comparison {
+  padding: 60px 0;
+  background-color: #003465;
+  color: white;
+  text-align: center;
+}
+
+.heading {
+  font-size: 36px;
+}
+
+.subheading {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.app__comparison-body {
+  margin-top: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.app__comparison-title,
+.app__comparison-title-folarium,
+.app__comparison-title-lainnya {
+  font-size: 36px;
+}
+
+.app__comparison-title-folarium {
+  color: #00b749;
+}
+
+.app__comparison-title-lainnya {
+  color: #ff3737;
+}
+
+.app__comparison-categories {
+  font-size: 24px;
+}
+
+.app__comparison-category-items {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00762f;
+  border-radius: 8px;
+}
+
+.app__comparison-folarium-items {
+  width: 520px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #054989;
+  border-radius: 8px;
+}
+
+.app__comparison-lainnya-items {
+  width: 520px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #054989;
+  border-radius: 8px;
+}

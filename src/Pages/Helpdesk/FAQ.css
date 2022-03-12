@@ -1,0 +1,88 @@
+.app__faq {
+  padding: 20px;
+}
+
+.app__faq-top {
+  color: white;
+  height: 400px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.app__faq-top img {
+  position: absolute;
+  top: 200px;
+  left: 120px;
+}
+
+.app__faq-top-title {
+  padding: 200px 0 100px 120px;
+}
+
+.app__faq-top-title p:nth-child(1) {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+.app__faq-top-title p:nth-child(2) {
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.app__faq-body {
+  display: flex;
+  background: #f0fff5;
+  border-radius: 20px;
+  padding: 60px 120px 60px 60px;
+  margin-bottom: 200px;
+}
+
+.app__faq-link-item {
+  width: 360px;
+  padding: 18px 0;
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.app__faq-link-item a {
+  color: white;
+}
+
+.app__faq-body-right {
+  margin-left: 100px;
+}
+
+.app__faq-body-item {
+  width: 100%;
+  border-bottom: 1px solid #dcdcdd;
+  padding: 0px 0px 20px 0px;
+  margin-bottom: 20px;
+}
+
+.app__faq-item-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.app__faq-item-title p:nth-child(1) {
+  font-size: 24px;
+  line-height: 36px;
+  color: #303030;
+}
+
+.app__faq-item-isi {
+  margin-top: 20px;
+}
+
+.plus,
+.minus {
+  font-size: 28px;
+  color: #3b8446;
+}

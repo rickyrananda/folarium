@@ -1,0 +1,168 @@
+.app__overviewConsulting {
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__overviewConsulting-title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 72px;
+  line-height: 108px;
+  letter-spacing: 0.1em;
+  color: #080157;
+  text-transform: uppercase;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.bg-overview {
+  position: absolute;
+  top: 101%;
+  left: 300px;
+  width: 400px;
+  height: 60px;
+  z-index: -1;
+  background: linear-gradient(274.97deg, #e2d0ff 4.07%, #aec6ff 101.18%);
+}
+
+.app__overviewConsulting-title img {
+  height: 600px;
+  margin-left: 100px;
+}
+
+.app__overviewConsulting-title button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #080157;
+  background: linear-gradient(271.33deg, #e2d0ff 4.69%, #aec6ff 97.74%);
+  border-radius: 40px;
+  border: none;
+}
+
+.app__overviewConsulting-body {
+  width: 80%;
+  padding: 60px;
+  margin: auto;
+  font-size: 24px;
+  line-height: 60px;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  color: #080157;
+  background-color: #eeefff;
+  border-radius: 40px;
+}
+
+.app__overviewConsulting-body p:nth-child(1) {
+  margin-bottom: 20px;
+}
+.app__overviewConsulting-body p:nth-child(2) {
+  margin: 20px 0;
+}
+
+.app__overviewConsulting-item {
+  display: flex;
+  color: #fff;
+}
+
+.app__overviewConsulting-item div {
+  padding: 20px 0;
+  background: #4030f5;
+  width: 50%;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.app__overviewConsulting-item div:nth-child(1) {
+  margin-right: 10px;
+}
+.app__overviewConsulting-item div:nth-child(2) {
+  margin-left: 10px;
+}
+
+.app__overviewConsulting-archi {
+  padding: 80px 180px;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  color: #080157;
+}
+
+.app__overviewConsulting-content {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+  color: #2f4964;
+}
+
+.app__overviewConsulting-content img {
+  height: 500px;
+}
+
+.app__overviewConsulting-desc {
+  width: 900px;
+  padding: 30px;
+  background: #eeefff;
+  border-radius: 20px;
+}
+
+.app__overviewConsulting-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__overviewConsulting-list {
+  margin-top: 50px;
+}
+
+.app__overviewConsulting-list .app__overviewConsulting-point:nth-child(1) {
+  margin-bottom: 25px;
+}
+.app__overviewConsulting-list .app__overviewConsulting-point:nth-child(2) {
+  margin-top: 25px;
+}
+
+.app__overviewConsulting-point {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__overviewConsulting-point p {
+  margin-top: 20px;
+  width: 240px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.app__overviewConsulting-point img {
+  height: 80px;
+}
+
+.app__overviewConsulting-pengawasan {
+  padding: 80px 180px;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+  color: #080157;
+}

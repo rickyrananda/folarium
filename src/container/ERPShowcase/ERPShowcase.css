@@ -1,0 +1,82 @@
+.app__erpshowcase {
+  display: flex;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
+
+.app__listContainer {
+  scroll-snap-align: start;
+  padding: 100px 40px 0 40px;
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--color-blue);
+}
+
+.app__listContent {
+  list-style: none;
+}
+
+.app__list-item {
+  padding: 10px 20px;
+  margin-bottom: 16px;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.active {
+  color: var(--color-showcase);
+  background-color: white;
+}
+
+.app__bodyContainer {
+  position: relative;
+  padding: 100px 60px;
+  flex: 2;
+  overflow-y: auto;
+  background-color: var(--color-bg-showcase);
+  line-height: 25px;
+  scrollbar-width: none; /* Firefox */
+}
+
+.app__bodyContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.app__bodyContent-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.app__bodyContent-row img {
+  height: 320px;
+}
+
+.app__bodyContent-text {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  color: var(--color-txt-showcase);
+}
+
+.app__bodyContent-title {
+  margin-bottom: 20px;
+  margin-left: -18px;
+}
+
+.app__bodyContent {
+  position: absolute;
+  width: 90%;
+  display: none;
+}
+
+.bodyContent-active {
+  display: block;
+}

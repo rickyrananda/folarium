@@ -1,0 +1,86 @@
+.app__aboutUs {
+  padding: 120px;
+}
+
+.app__aboutUs-title {
+  position: relative;
+  margin-left: 6rem;
+  margin-bottom: 80px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  letter-spacing: 0.05em;
+  color: #000;
+}
+
+.bulat {
+  position: absolute;
+  top: -150%;
+  left: 5%;
+  background-color: #98eca5;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.kotak {
+  position: absolute;
+  top: 200px;
+  left: -40px;
+  background-color: #35c1bf;
+  width: 450px;
+  height: 450px;
+  z-index: -1;
+}
+
+.app__aboutUs-body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.cover1 {
+  width: 600px;
+  height: 320px;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cover2 {
+  height: 180px;
+  width: 360px;
+  border-radius: 20px;
+  background-size: contain;
+  margin-left: 6px;
+}
+.cover3 {
+  height: 280px;
+  width: 180px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin-right: 6px;
+}
+.app__flex {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.folarium {
+  color: #3cc2b7;
+  font-size: 24px;
+}
+
+.app__aboutUs-text {
+  width: 800px;
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+.app__aboutUs-text p:nth-child(1) {
+  margin-bottom: 40px;
+}

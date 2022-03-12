@@ -1,0 +1,111 @@
+.app__client {
+}
+
+.app__client-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 60px 240px;
+}
+
+.app__client-top p:nth-child(1) {
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.app__client-top p:nth-child(4) {
+  margin-top: 40px;
+  width: 640px;
+  font-style: italic;
+  line-height: 21px;
+  text-align: center;
+}
+
+.span1 {
+  background: linear-gradient(269.32deg, #df2772 0.32%, #fe4f32 34.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.garis1 {
+  width: 500px;
+  margin: 16px auto;
+}
+.garis3 {
+  margin: -20px auto;
+  width: 40%;
+  height: 8px;
+  border: none;
+  background: linear-gradient(to right, #df2772, #fe4f32);
+}
+
+.app__client-list {
+  margin-top: 64px;
+}
+
+.app__client-listed {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__client-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  width: 400px;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.app__client-item img {
+  height: 120px;
+}
+
+.app__client-bot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 80px;
+}
+
+.app__client-bot-title {
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.garis2 {
+  margin-top: 16px;
+  height: 8px;
+  border: none;
+  background: linear-gradient(270deg, #5a88e5 0%, #36d1dc 100%);
+}
+
+.span2 {
+  background: linear-gradient(270deg, #5a88e5 0%, #36d1dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.app__client-bot-list {
+  margin-top: 60px;
+  display: flex;
+}
+
+.app__client-bot-list img {
+  height: 150px;
+}

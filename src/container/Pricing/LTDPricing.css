@@ -1,0 +1,240 @@
+.app__LTDPricing {
+  position: relative;
+  display: flex;
+  height: 110vh;
+  padding: 40px 160px;
+}
+
+.app__LTDPricing-right-top,
+.app__LTDPricing-right-bottom {
+  display: flex;
+}
+
+.app__LTDPricing-main {
+  position: absolute;
+  top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.app__LTDPricing-main > p:nth-child(1) {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #eac506;
+  margin-bottom: 24px;
+}
+
+.app__LTDPricing-main > p:nth-child(2) {
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+.app__LTDPricing-main > p:nth-child(5) {
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #303030;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.app__LTDPricing-main > button {
+  width: 100%;
+  color: white;
+  background: linear-gradient(270deg, #df2772 0%, #fe4f32 100%);
+  border-radius: 60px;
+  border: none;
+  padding: 15px 120px;
+}
+
+.app__LTDPricing-main > button > p {
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.app__LTDPricing-main ul {
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.satu p:nth-child(1) {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.satu p:nth-child(2) {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffcfcf;
+  margin-top: 8px;
+}
+.satu p:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 16px;
+}
+.satu p:nth-child(3) > span {
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.dua p:nth-child(1) {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.dua p:nth-child(2) {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.dua p:nth-child(2) > span {
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.dua p:nth-child(3),
+p:nth-child(4) {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.app__LTDPricing-gradient {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: linear-gradient(270deg, #df2772 0%, #fe4f32 100%);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.app__LTDPricing-right {
+  position: absolute;
+  left: 750px;
+  top: 40px;
+}
+
+.app__LTDPricing-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 20px 40px;
+}
+
+.app__LTDPricing-card > p {
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.app__LTDPricing-card > .app__LTDPricing-gradient > p:nth-child(1) {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.app__LTDPricing-card > .app__LTDPricing-gradient > p:nth-child(2) {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffcfcf;
+  margin-bottom: 12px;
+}
+.app__LTDPricing-card > .app__LTDPricing-gradient > p:nth-child(3) > span {
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.app__LTDPricing-card-short {
+  width: 415px;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 40px 40px 20px 40px;
+}
+
+.app__LTDPricing-card-short > p:nth-child(1) {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2b69e0;
+  margin-bottom: 20px;
+}
+.app__LTDPricing-card-short > p:nth-child(2) {
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.app__LTDPricing-card-short > .app__LTDPricing-gradient > p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.app__LTDPricing-card-short > .app__LTDPricing-gradient > p > span {
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.app__LTDPricing-right-bottom {
+  margin-top: 40px;
+}
+
+.app__LTDPricing-right-top > .app__LTDPricing-card {
+  margin-right: 40px;
+}
+.app__LTDPricing-right-bottom > .app__LTDPricing-card-short {
+  margin-right: 40px;
+}

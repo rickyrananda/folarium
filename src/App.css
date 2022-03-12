@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+*::-webkit-scrollbar {
+  display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container div {
+  scroll-snap-type: y mandatory;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.p__poppins {
+  font-family: var(--font-base);
+  font-weight: 400;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.p__outfit {
+  font-family: var(--font-alt);
+  font-weight: 400;
 }
 
-.App-link {
-  color: #61dafb;
+span {
+  margin-left: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sb {
+  font-weight: 600;
+}
+
+.sb-24 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.m {
+  font-weight: 500;
+}
+
+.b {
+  font-weight: 700;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+a {
+  text-decoration: none;
+}
+
+.app__navbar {
+  z-index: 100;
+}
+
+.app__heroMain {
+  position: relative;
+  z-index: -10;
+}
+
+.gradient1 {
+  background: linear-gradient(270deg, #df2772 0%, #fe4f32 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

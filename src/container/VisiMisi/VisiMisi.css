@@ -1,0 +1,79 @@
+.app__visiMisi {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.app__visiMisi-title {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+  height: 640px;
+  color: white;
+  background: linear-gradient(90.98deg, #32c0c2 0%, #7acd6b 120.16%);
+}
+
+.app__visiMisi-title p {
+  margin-left: 140px;
+  width: 80px;
+  font-size: 96px;
+  line-height: 120px;
+  text-align: justify;
+  letter-spacing: 0.1em;
+}
+
+.app__visiMisi-desc {
+  position: absolute;
+  width: 880px;
+  height: 560px;
+  right: 300px;
+  padding: 60px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.app__visiMisi-descContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app__visiMisi-descContent p {
+  font-size: 28px;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+}
+
+.app__visiMisi-descContent ul {
+  margin-top: 20px;
+}
+
+.app__visiMisi-descContent li {
+  font-size: 28px;
+  line-height: 50px;
+  letter-spacing: 0.05em;
+}
+.app__visiMisi-item {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.app__visiMisi-item p {
+  z-index: 10;
+}
+
+.app__visiMisi-item div {
+  position: absolute;
+  top: 8px;
+  left: -15px;
+  background-color: #4ec5a1;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  z-index: 0;
+}

@@ -1,0 +1,154 @@
+.app__erpMaintenancePricing {
+  padding: 80px 160px 400px 160px;
+}
+
+.app__erpMaintenancePricing-title p:nth-child(1) {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fe4f33;
+  margin-bottom: 20px;
+}
+.app__erpMaintenancePricing-title p:nth-child(2) {
+  font-size: 64px;
+  line-height: 90px;
+  text-align: justify;
+  color: #e02871;
+}
+
+.app__erpMaintenancePricing-body {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.app__erpMaintenancePricing-category {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__erpMaintenancePricing-list {
+  margin-top: 70px;
+  color: white;
+  background: #680d31;
+  border-radius: 20px;
+  padding: 40px 120px 40px 40px;
+}
+
+.app__erpMaintenancePricing-list > div > p {
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.app__erpMaintenancePricing-point p {
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  padding: 8px 20px;
+  background: #fe4f33;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.app__erpMaintenancePricing-point p:nth-child(4) {
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  padding: 8px 20px;
+  background: #fe4f33;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.app__erpMaintenancePricing-conbody {
+  background: linear-gradient(270deg, #df2772 0%, #fe4f32 100%);
+  border-radius: 8px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__erpMaintenancePricing-conbody > p {
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+
+.app__erpMaintenancePricing-conbody > p > span {
+  font-size: 36px;
+  line-height: 54px;
+  color: white;
+}
+
+.app__erpMaintenancePricing-STD {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 300px;
+}
+
+.app__erpMaintenancePricing-AIO {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__erpMaintenancePricing-STD > p,
+.app__erpMaintenancePricing-AIO > p {
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.app__erpMaintenancePricing-cbody:nth-child(1) {
+  margin-top: 70px;
+}
+.app__erpMaintenancePricing-cbody:nth-child(2) {
+  margin-top: 115px;
+}
+.app__erpMaintenancePricing-cbody:nth-child(3) {
+  margin-top: 120px;
+}
+.app__erpMaintenancePricing-cbody:nth-child(4) {
+  margin-top: 120px;
+}
+.app__erpMaintenancePricing-cbody:nth-child(4) > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app__erpMaintenancePricing-cbody:nth-child(4) img:nth-child(3) {
+  margin-bottom: 30px;
+}
+.app__erpMaintenancePricing-cbody:nth-child(4) img:nth-child(4) {
+  margin-bottom: 100px;
+}
+
+.app__erpMaintenancePricing-cbody > div {
+  display: flex;
+  flex-direction: column;
+}
+.app__erpMaintenancePricing-cbody > div > p {
+  color: white;
+  font-size: 36px;
+  line-height: 54px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.app__erpMaintenancePricing-cbody > div > img {
+  height: 30px;
+  width: 30px;
+}
+
+.app__erpMaintenancePricing-cbody > div > img:nth-child(2) {
+  margin-top: 36px;
+}

@@ -1,0 +1,81 @@
+.app__heroPricing {
+  height: 60vh;
+  position: relative;
+  color: white;
+  background: #fe4f33;
+  z-index: -2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+}
+
+.app__heroPricing img:nth-child(1) {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+.app__heroPricing img:nth-child(2) {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+}
+.app__heroPricing img:nth-child(3) {
+  position: absolute;
+  z-index: -1;
+  top: 50px;
+  right: 350px;
+}
+.app__heroPricing-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__heroPricing-title p:nth-child(1) {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #fab3a7;
+  margin-bottom: 20px;
+}
+.app__heroPricing-title p:nth-child(2) {
+  width: 520px;
+  font-size: 64px;
+  line-height: 90px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.app__heroPricing-title p:nth-child(3) {
+  width: 540px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.app__heroPricing-button {
+  display: flex;
+  background: #e02871;
+  border-radius: 40px;
+  padding: 4px;
+}
+
+.app__heroPricing-ltd p {
+  font-size: 18px;
+  line-height: 27px;
+  color: #e02871;
+  padding: 14px 32px;
+  background: white;
+  border-radius: 40px;
+}
+
+.app__heroPricing-bop p {
+  font-size: 18px;
+  line-height: 27px;
+  color: #ff6fa8;
+  padding: 14px 32px;
+  border-radius: 40px;
+}

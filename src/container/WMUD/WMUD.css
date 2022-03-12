@@ -1,0 +1,144 @@
+.app__WMUD {
+  height: 140vh;
+}
+.blue {
+  color: #003465;
+}
+.head {
+  font-size: 18px;
+}
+.desc {
+  margin-top: 0.5rem;
+  font-size: 14px;
+}
+
+.app__WMUD-head {
+  position: relative;
+}
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 900px;
+  height: 280px;
+  background: linear-gradient(90.98deg, #32c0c2 0%, #7acd6b 120.16%), #c4c4c4;
+  z-index: -1;
+}
+
+.app__WMUD-head p {
+  position: absolute;
+  width: 640px;
+  margin-top: 160px;
+  margin-left: 12rem;
+  color: white;
+  font-size: 80px;
+  line-height: 120px;
+}
+
+.app__WMUD-head img {
+  position: absolute;
+  height: 160px;
+  top: 220px;
+  left: 820px;
+}
+
+.app__WMUD-body {
+  position: relative;
+  height: 100%;
+}
+
+.app__WMUD-center {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  background-color: #f3ffea;
+  border-radius: 80%;
+  padding: 2rem 1rem;
+}
+
+.app__WMUD-center img {
+  height: 280px;
+}
+
+.app__WMUD-item1 {
+  position: absolute;
+  top: 40%;
+  left: 37%;
+  display: flex;
+  align-items: center;
+}
+
+.app__WMUD-item2 {
+  position: absolute;
+  top: 48%;
+  left: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.app__WMUD-item3 {
+  position: absolute;
+  top: 48%;
+  right: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.app__WMUD-item4 {
+  position: absolute;
+  top: 58%;
+  left: 7%;
+  display: flex;
+  align-items: center;
+}
+
+.app__WMUD-item5 {
+  position: absolute;
+  top: 58%;
+  right: 6%;
+  display: flex;
+  align-items: center;
+}
+
+.app__WMUD-item6 {
+  position: absolute;
+  top: 68%;
+  left: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.app__WMUD-item7 {
+  position: absolute;
+  top: 68%;
+  right: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.app__WMUD-item8 {
+  position: absolute;
+  top: 76%;
+  left: 37%;
+  display: flex;
+  align-items: center;
+}
+
+.app__WMUD-ellipse {
+  width: 120px;
+  height: 120px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3ffea;
+  border-radius: 100%;
+}
+
+.app__WMUD-ellipse img {
+  height: 66px;
+}
+
+.app__WMUD-text {
+  width: 280px;
+}

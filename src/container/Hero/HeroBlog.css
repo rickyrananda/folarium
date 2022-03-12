@@ -1,0 +1,39 @@
+.app__heroBlog {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #003465;
+  padding: 400px 100px 120px 100px;
+}
+
+.app__heroBlog-title {
+  width: 50%;
+}
+
+.app__heroBlog-title > p:nth-child(1) {
+  font-size: 48px;
+  line-height: 72px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.app__heroBlog-title > p:nth-child(2) {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.m-artikel-btn {
+  background: #003465;
+  border-radius: 10px;
+  padding: 15px 80px;
+  border: none;
+}
+
+.m-artikel-btn > a {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  color: #ffffff;
+}

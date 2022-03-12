@@ -1,0 +1,43 @@
+.app__subsidiaries {
+  background-repeat: repeat-y;
+  background-size: contain;
+  padding: 80px 80px 140px 80px;
+}
+
+.app__subsidiaries-title {
+  font-size: 36px;
+  line-height: 45px;
+  text-align: justify;
+  color: #303030;
+  margin-bottom: 80px;
+}
+
+.app__subsidiaries-hr {
+  margin-top: 4px;
+  border: none;
+  background: linear-gradient(to right, #df2772, #fe4f32);
+  width: 7%;
+  height: 8px;
+}
+
+.app__subsidiaries-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.app__subsidiaries-body img:nth-child(1) {
+  height: 110px;
+  width: 300px;
+}
+.app__subsidiaries-body img:nth-child(2) {
+  margin-top: 50px;
+  height: 100px;
+  width: 320px;
+}
+.app__subsidiaries-body img:nth-child(3) {
+  margin-top: 30px;
+  height: 100px;
+  width: 350px;
+}

@@ -1,0 +1,103 @@
+.app__footer {
+  padding: 4rem 12rem;
+  background-color: var(--color-footer1);
+  color: white;
+}
+
+.app__footer-column {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.app__footer-desc {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 100px;
+}
+
+.app__footer-desc p {
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+
+.app__footer-desc img {
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+.app__footer-sosmed {
+  display: flex;
+}
+
+.app__footer-sosmed-item {
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-footer2);
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.app__footer-kantor p {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.app__footer-kantor-item {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-footer2);
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.app__footer-kantor-info {
+  margin-right: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app__footer-kantor-info p {
+  font-size: 16px;
+}
+
+.app__footer-row-link {
+  margin-bottom: 32px;
+}
+
+.app__footer-row-link a {
+  color: white;
+  margin-right: 40px;
+}
+
+.app__footer-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__footer-row-cr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}

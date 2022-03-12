@@ -1,0 +1,138 @@
+.app__erpConsultingPrice {
+  width: 100%;
+  background: #680d31;
+  color: white;
+  padding: 40px 160px 120px 160px;
+}
+
+.app__erpConsultingPrice-title {
+}
+
+.app__erpConsultingPrice-title p:nth-child(1) {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #e098b5;
+  margin-bottom: 20px;
+}
+.app__erpConsultingPrice-title p:nth-child(2) {
+  font-size: 64px;
+  line-height: 90px;
+  text-align: justify;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+
+.app__erpConsultingPrice-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__erpConsultingPrice-card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.app__erpConsultingPrice-card:nth-child(1) {
+  margin-right: 20px;
+}
+.app__erpConsultingPrice-card:nth-child(2) {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.app__erpConsultingPrice-card:nth-child(3) {
+  margin-left: 20px;
+}
+
+.app__erpConsultingPrice-card > p {
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.app__erpConsultingPrice-card:nth-child(1) .app__erpConsultingPrice-card-body {
+  display: flex;
+  flex-direction: column;
+}
+.app__erpConsultingPrice-card:nth-child(1)
+  .app__erpConsultingPrice-card-body
+  > div {
+  margin-top: 150px;
+}
+
+.app__erpConsultingPrice-card:nth-child(1)
+  .app__erpConsultingPrice-card-body
+  > div
+  p:nth-child(1) {
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+}
+.app__erpConsultingPrice-card:nth-child(1)
+  .app__erpConsultingPrice-card-body
+  > div
+  p:nth-child(2) {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.app__erpConsultingPrice-card-body {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: linear-gradient(270deg, #df2772 0%, #fe4f32 100%);
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.app__erpConsultingPrice-card-body > p {
+  font-size: 28px;
+  line-height: 42px;
+}
+
+li > p {
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.app__erpConsultingPrice-card:nth-child(3) p:nth-child(3) {
+  margin-top: 100px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.app__erpConsultingPrice-card:nth-child(3) p:nth-child(4) {
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+}
+.app__erpConsultingPrice-card:nth-child(3) p:nth-child(5) {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.app__erpConsultingPrice-card-body p:nth-child(3) {
+  margin-top: 100px;
+  margin-top: 100px;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+}
+.app__erpConsultingPrice-card-body p:nth-child(4) {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}

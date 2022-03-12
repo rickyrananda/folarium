@@ -1,0 +1,90 @@
+.app__heroMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+  background: linear-gradient(180deg, #e6f7ff 0%, #b6e9ff 106.65%);
+}
+
+.app__heroMain-object {
+  position: relative;
+  display: flex;
+  top: 60px;
+  justify-content: flex-end;
+}
+
+.app__heroMain-object img {
+  height: 1000px;
+}
+
+.app__heroMain-image {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+
+.app__heroMain-image img {
+  height: 600px;
+}
+
+.app__heroMain-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 12rem;
+}
+
+.app__heroMain-text p {
+  margin-top: 1rem;
+}
+
+.app__heroMain-text p:nth-child(1) {
+  color: var(--color-tosca);
+  font-size: 28px;
+}
+
+.app__heroMain-text p:nth-child(2) {
+  color: var(--color-hero);
+  font-size: 48px;
+}
+
+.app__heroMain-text p:nth-child(3) {
+  color: var(--color-navbar);
+  font-size: 18px;
+}
+
+.app__heroMain-text-button {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin-top: 2rem;
+}
+
+.app__heroMain-text-button button {
+  margin-right: 1.5rem;
+}
+.app__heroMain-buttonGS a {
+  color: white;
+  font-size: 20px;
+}
+
+.app__heroMain-buttonGS {
+  background-color: var(--color-green);
+  padding: 1.0625rem 4.125rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.app__heroMain-buttonTD {
+  background-color: white;
+  padding: 1.0625rem 2rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.app__heroMain-buttonTD a {
+  color: #403b3b;
+  font-size: 20px;
+}

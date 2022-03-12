@@ -1,0 +1,58 @@
+.app__ERPbenefit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+  font-size: 48px;
+  color: #2f4964;
+}
+
+.app__ERPbenefit-content {
+  margin-top: 80px;
+  display: flex;
+}
+
+.app__ERPbenefit-content .app__ERPbenefit-list:nth-child(1) {
+  margin-right: 20px;
+}
+.app__ERPbenefit-content .app__ERPbenefit-list:nth-child(2) {
+  margin: 0 20px;
+}
+.app__ERPbenefit-content .app__ERPbenefit-list:nth-child(3) {
+  margin-left: 20px;
+}
+
+.app__ERPbenefit-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__ERPbenefit-list .app__ERPbenefit-item:nth-child(1) {
+  margin-bottom: 40px;
+}
+.app__ERPbenefit-list .app__ERPbenefit-item:nth-child(2) {
+  margin: 40px 0;
+}
+.app__ERPbenefit-list .app__ERPbenefit-item:nth-child(3) {
+  margin-top: 40px;
+}
+
+.app__ERPbenefit-item {
+  width: 360px;
+  text-align: center;
+}
+
+.app__ERPbenefit-text {
+  text-align: center;
+}
+
+.app__ERPbenefit-item img {
+  height: 120px;
+}
+.app__ERPbenefit-text p:nth-child(1) {
+  font-size: 24px;
+}
+.app__ERPbenefit-text p:nth-child(2) {
+  font-size: 20px;
+}
